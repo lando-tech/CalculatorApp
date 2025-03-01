@@ -1,0 +1,3 @@
+/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles/calc.dir
+/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles/edit_cache.dir
+/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles/rebuild_cache.dir
