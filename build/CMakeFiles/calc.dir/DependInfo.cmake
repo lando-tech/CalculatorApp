@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/landotech/Documents/CppProjects/CalculatorApp/main.cpp" "CMakeFiles/calc.dir/main.cpp.o" "gcc" "CMakeFiles/calc.dir/main.cpp.o.d"
-  "/home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp" "CMakeFiles/calc.dir/src/calc.cpp.o" "gcc" "CMakeFiles/calc.dir/src/calc.cpp.o.d"
-  "/home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp" "CMakeFiles/calc.dir/src/window.cpp.o" "gcc" "CMakeFiles/calc.dir/src/window.cpp.o.d"
+  "/home/landotech/GitHub/CalculatorApp/main.cpp" "CMakeFiles/calc.dir/main.cpp.o" "gcc" "CMakeFiles/calc.dir/main.cpp.o.d"
+  "/home/landotech/GitHub/CalculatorApp/src/calc.cpp" "CMakeFiles/calc.dir/src/calc.cpp.o" "gcc" "CMakeFiles/calc.dir/src/calc.cpp.o.d"
+  "/home/landotech/GitHub/CalculatorApp/src/window.cpp" "CMakeFiles/calc.dir/src/window.cpp.o" "gcc" "CMakeFiles/calc.dir/src/window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

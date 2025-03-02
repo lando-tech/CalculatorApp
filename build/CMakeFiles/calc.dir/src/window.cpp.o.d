@@ -1,7 +1,7 @@
 CMakeFiles/calc.dir/src/window.cpp.o: \
- /home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp \
+ /home/landotech/GitHub/CalculatorApp/src/window.cpp \
  /usr/include/stdc-predef.h \
- /home/landotech/Documents/CppProjects/CalculatorApp/include/window.h \
+ /home/landotech/GitHub/CalculatorApp/include/window.h \
  /usr/include/gtkmm-4.0/gdkmm/enums.h \
  /usr/lib/x86_64-linux-gnu/gtkmm-4.0/include/gdkmmconfig.h \
  /usr/lib/x86_64-linux-gnu/pangomm-2.48/include/pangommconfig.h \
@@ -1594,5 +1594,5 @@ CMakeFiles/calc.dir/src/window.cpp.o: \
  /usr/include/gtkmm-4.0/gtkmm/widgetpaintable.h \
  /usr/include/gtkmm-4.0/gtkmm/windowcontrols.h \
  /usr/include/gtkmm-4.0/gtkmm/windowhandle.h \
- /home/landotech/Documents/CppProjects/CalculatorApp/include/calc.h \
+ /home/landotech/GitHub/CalculatorApp/include/calc.h \
  /usr/include/c++/13/iostream

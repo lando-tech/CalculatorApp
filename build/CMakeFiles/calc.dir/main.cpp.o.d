@@ -1,7 +1,6 @@
 CMakeFiles/calc.dir/main.cpp.o: \
- /home/landotech/Documents/CppProjects/CalculatorApp/main.cpp \
- /usr/include/stdc-predef.h \
- /home/landotech/Documents/CppProjects/CalculatorApp/include/window.h \
+ /home/landotech/GitHub/CalculatorApp/main.cpp /usr/include/stdc-predef.h \
+ /home/landotech/GitHub/CalculatorApp/include/window.h \
  /usr/include/gtkmm-4.0/gdkmm/enums.h \
  /usr/lib/x86_64-linux-gnu/gtkmm-4.0/include/gdkmmconfig.h \
  /usr/lib/x86_64-linux-gnu/pangomm-2.48/include/pangommconfig.h \

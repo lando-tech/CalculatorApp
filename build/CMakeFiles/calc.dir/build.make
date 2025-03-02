@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/landotech/Documents/CppProjects/CalculatorApp
+CMAKE_SOURCE_DIR = /home/landotech/GitHub/CalculatorApp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/landotech/Documents/CppProjects/CalculatorApp/build
+CMAKE_BINARY_DIR = /home/landotech/GitHub/CalculatorApp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calc.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/calc.dir/progress.make
 include CMakeFiles/calc.dir/flags.make
 
 CMakeFiles/calc.dir/main.cpp.o: CMakeFiles/calc.dir/flags.make
-CMakeFiles/calc.dir/main.cpp.o: /home/landotech/Documents/CppProjects/CalculatorApp/main.cpp
+CMakeFiles/calc.dir/main.cpp.o: /home/landotech/GitHub/CalculatorApp/main.cpp
 CMakeFiles/calc.dir/main.cpp.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/main.cpp.o -MF CMakeFiles/calc.dir/main.cpp.o.d -o CMakeFiles/calc.dir/main.cpp.o -c /home/landotech/Documents/CppProjects/CalculatorApp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/GitHub/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/calc.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/main.cpp.o -MF CMakeFiles/calc.dir/main.cpp.o.d -o CMakeFiles/calc.dir/main.cpp.o -c /home/landotech/GitHub/CalculatorApp/main.cpp
 
 CMakeFiles/calc.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calc.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/Documents/CppProjects/CalculatorApp/main.cpp > CMakeFiles/calc.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/GitHub/CalculatorApp/main.cpp > CMakeFiles/calc.dir/main.cpp.i
 
 CMakeFiles/calc.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calc.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/Documents/CppProjects/CalculatorApp/main.cpp -o CMakeFiles/calc.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/GitHub/CalculatorApp/main.cpp -o CMakeFiles/calc.dir/main.cpp.s
 
 CMakeFiles/calc.dir/src/calc.cpp.o: CMakeFiles/calc.dir/flags.make
-CMakeFiles/calc.dir/src/calc.cpp.o: /home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp
+CMakeFiles/calc.dir/src/calc.cpp.o: /home/landotech/GitHub/CalculatorApp/src/calc.cpp
 CMakeFiles/calc.dir/src/calc.cpp.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calc.dir/src/calc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/calc.cpp.o -MF CMakeFiles/calc.dir/src/calc.cpp.o.d -o CMakeFiles/calc.dir/src/calc.cpp.o -c /home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/GitHub/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calc.dir/src/calc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/calc.cpp.o -MF CMakeFiles/calc.dir/src/calc.cpp.o.d -o CMakeFiles/calc.dir/src/calc.cpp.o -c /home/landotech/GitHub/CalculatorApp/src/calc.cpp
 
 CMakeFiles/calc.dir/src/calc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calc.dir/src/calc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp > CMakeFiles/calc.dir/src/calc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/GitHub/CalculatorApp/src/calc.cpp > CMakeFiles/calc.dir/src/calc.cpp.i
 
 CMakeFiles/calc.dir/src/calc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calc.dir/src/calc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp -o CMakeFiles/calc.dir/src/calc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/GitHub/CalculatorApp/src/calc.cpp -o CMakeFiles/calc.dir/src/calc.cpp.s
 
 CMakeFiles/calc.dir/src/window.cpp.o: CMakeFiles/calc.dir/flags.make
-CMakeFiles/calc.dir/src/window.cpp.o: /home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp
+CMakeFiles/calc.dir/src/window.cpp.o: /home/landotech/GitHub/CalculatorApp/src/window.cpp
 CMakeFiles/calc.dir/src/window.cpp.o: CMakeFiles/calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calc.dir/src/window.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/window.cpp.o -MF CMakeFiles/calc.dir/src/window.cpp.o.d -o CMakeFiles/calc.dir/src/window.cpp.o -c /home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/landotech/GitHub/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calc.dir/src/window.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/calc.dir/src/window.cpp.o -MF CMakeFiles/calc.dir/src/window.cpp.o.d -o CMakeFiles/calc.dir/src/window.cpp.o -c /home/landotech/GitHub/CalculatorApp/src/window.cpp
 
 CMakeFiles/calc.dir/src/window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/calc.dir/src/window.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp > CMakeFiles/calc.dir/src/window.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/landotech/GitHub/CalculatorApp/src/window.cpp > CMakeFiles/calc.dir/src/window.cpp.i
 
 CMakeFiles/calc.dir/src/window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/calc.dir/src/window.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/Documents/CppProjects/CalculatorApp/src/window.cpp -o CMakeFiles/calc.dir/src/window.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/landotech/GitHub/CalculatorApp/src/window.cpp -o CMakeFiles/calc.dir/src/window.cpp.s
 
 # Object files for target calc
 calc_OBJECTS = \
@@ -125,7 +125,7 @@ calc: CMakeFiles/calc.dir/src/calc.cpp.o
 calc: CMakeFiles/calc.dir/src/window.cpp.o
 calc: CMakeFiles/calc.dir/build.make
 calc: CMakeFiles/calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/landotech/GitHub/CalculatorApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable calc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/calc.dir/clean:
 .PHONY : CMakeFiles/calc.dir/clean
 
 CMakeFiles/calc.dir/depend:
-	cd /home/landotech/Documents/CppProjects/CalculatorApp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/landotech/Documents/CppProjects/CalculatorApp /home/landotech/Documents/CppProjects/CalculatorApp /home/landotech/Documents/CppProjects/CalculatorApp/build /home/landotech/Documents/CppProjects/CalculatorApp/build /home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles/calc.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/landotech/GitHub/CalculatorApp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/landotech/GitHub/CalculatorApp /home/landotech/GitHub/CalculatorApp /home/landotech/GitHub/CalculatorApp/build /home/landotech/GitHub/CalculatorApp/build /home/landotech/GitHub/CalculatorApp/build/CMakeFiles/calc.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/calc.dir/depend
 

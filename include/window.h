@@ -12,25 +12,46 @@ class MainWindow : public Gtk::Window
 {
     public:
         MainWindow();
+        // Setters
         void setButtonLabels();
         void setEntryText(char x);
         void setEntryOperand(char operand);
+        void setEntryOperand(std::string operand);
+
+        // Attach Handlers/Objects
         void attachSignalHandlers();
         void attachToGrid();
+        void handleDeletionButton();
+
+        // Handle key presses and events
         bool onKeyPressed(guint keyval, guint, Gdk::ModifierType state);
         void handleEnterPress();
+
+        // Evaluate expression        
         std::vector<std::string> getExpression(const std::string& expr, char delimiter);
-        void printResult(char delimiter);
-        std::string getEntryText();
+        void getResult(char delimiter);
+
+        // Format expression and output
+        void printFormat(long double calculation);
+        std::string convertToString(long double x);
+        std::string convertToString(double x);
+        std::string convertToString(float x);
+        std::string convertToString(int x); 
+
+        // Clear entry text
+        void resetTextBox();
         virtual ~MainWindow();
 
     private:
         std::vector<Gtk::Button*> m_Buttons;
+        std::string divisionSymbol{};
+        std::string backSpace{};
 
     protected:
         Gtk::Box m_VBox;
         Gtk::Entry m_Text_Box;
         Gtk::Grid m_Grid;
+        Gtk::Entry m_Text_View;
         // Numbers
         Gtk::Button m_Button0;
         Gtk::Button m_Button1;

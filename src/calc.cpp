@@ -3,32 +3,32 @@
 
 Calculator::Calculator(){};
 
-double Calculator::add(double x, double y)
+long double Calculator::add(long double x, long double y)
 {
     return x + y;
 }
 
-double Calculator::subtract(double x, double y)
+long double Calculator::subtract(long double x, long double y)
 {
     return x - y;
 }
 
-double Calculator::multiply(double x, double y)
+long double Calculator::multiply(long double x, long double y)
 {
     return x * y;
 }
 
-double Calculator::divide(double x, double y)
+long double Calculator::divide(long double x, long double y)
 {
     return x / y;
 }
 
-double Calculator::raisePower(double x, double exponent)
+long double Calculator::raisePower(long double x, long double exponent)
 {
     return pow(x, exponent);
 }
 
-double Calculator::areaOfCircle(double radius)
+long double Calculator::areaOfCircle(long double radius)
 {
     return ( M_PI * ( pow( radius, 2 ) ) );
 }

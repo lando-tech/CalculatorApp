@@ -1,5 +1,5 @@
 CMakeFiles/calc.dir/src/calc.cpp.o: \
- /home/landotech/Documents/CppProjects/CalculatorApp/src/calc.cpp \
+ /home/landotech/GitHub/CalculatorApp/src/calc.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/13/cmath \
  /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -85,4 +85,4 @@ CMakeFiles/calc.dir/src/calc.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/landotech/Documents/CppProjects/CalculatorApp/include/calc.h
+ /home/landotech/GitHub/CalculatorApp/include/calc.h

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/landotech/Documents/CppProjects/CalculatorApp
+CMAKE_SOURCE_DIR = /home/landotech/GitHub/CalculatorApp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/landotech/Documents/CppProjects/CalculatorApp/build
+CMAKE_BINARY_DIR = /home/landotech/GitHub/CalculatorApp/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/calc.dir/clean
 CMakeFiles/calc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/calc.dir/build.make CMakeFiles/calc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles --progress-num=1,2,3,4 "Built target calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/landotech/GitHub/CalculatorApp/build/CMakeFiles --progress-num=1,2,3,4 "Built target calc"
 .PHONY : CMakeFiles/calc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/calc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/landotech/GitHub/CalculatorApp/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/calc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/landotech/Documents/CppProjects/CalculatorApp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/landotech/GitHub/CalculatorApp/build/CMakeFiles 0
 .PHONY : CMakeFiles/calc.dir/rule
 
 # Convenience name for target.
