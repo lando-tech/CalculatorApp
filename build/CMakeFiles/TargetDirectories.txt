@@ -1,3 +1,0 @@
-/home/landotech/GitHub/CalculatorApp/build/CMakeFiles/calc.dir
-/home/landotech/GitHub/CalculatorApp/build/CMakeFiles/edit_cache.dir
-/home/landotech/GitHub/CalculatorApp/build/CMakeFiles/rebuild_cache.dir
