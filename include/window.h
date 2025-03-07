@@ -33,6 +33,8 @@ class MainWindow : public Gtk::Window
 
         // Format expression and output
         void printFormat(long double calculation);
+        bool checkForCompoundExpr(std::string eText);
+        void formatCompoundExpr(const std::string& expr);
         std::string convertToString(long double x);
         std::string convertToString(double x);
         std::string convertToString(float x);

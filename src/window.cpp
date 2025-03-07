@@ -199,12 +199,7 @@ bool MainWindow::onKeyPressed(guint keval, guint, Gdk::ModifierType state)
         handleEnterPress();
         return true;
     }
-    else if ( keval == GDK_KEY_Delete )
-    {
         
-        return true;
-    }
-
     return false;
 }
 
@@ -212,23 +207,31 @@ void MainWindow::handleEnterPress()
 {
     Calculator calc;
     std::string eText = m_Text_Box.get_text();
-    for ( char i : m_Text_Box.get_text() )
+
+    if ( checkForCompoundExpr(eText) )
     {
-        if ( i == '+' )
+        formatCompoundExpr(eText);
+    }
+    else
+    {
+        for ( char i : m_Text_Box.get_text() )
         {
-            getResult('+');
-        }
-        else if ( i == '-' )
-        {
-            getResult('-');
-        }
-        else if ( i == '/')
-        {
-            getResult('/');
-        }
-        else if ( i == 'x')
-        {
-            getResult('x');
+            if ( i == '+' )
+            {
+                getResult('+');
+            }
+            else if ( i == '-' )
+            {
+                getResult('-');
+            }
+            else if ( i == '/')
+            {
+                getResult('/');
+            }
+            else if ( i == 'x')
+            {
+                getResult('x');
+            }
         }
     }
 }
@@ -276,6 +279,53 @@ void MainWindow::printFormat(long double calculation)
 {
     m_Text_View.set_text(convertToString(calculation));
     resetTextBox();
+}
+
+bool MainWindow::checkForCompoundExpr(std::string eText)
+{
+    for ( auto i : eText )
+    {
+        if ( i == '(' )
+        {
+            return true;
+        }
+        else if ( i == ')' )
+        {
+            return true;
+        }
+
+    }
+
+    return false;
+}
+
+void MainWindow::formatCompoundExpr(const std::string& expr)
+{
+    char leftParen{};
+    char rightParen{};
+    int left{};
+    int right{};
+    std::string subString{};
+
+    for ( int i = 0; i < expr.length(); i++ )
+    {
+        if ( expr[i] == '(' )
+        {
+            leftParen = expr[i];
+            left = i;
+        }
+
+        if ( expr[i] == ')' )
+        {
+            rightParen = expr[i];
+            right = i;
+        }
+
+        if ( leftParen && rightParen )
+        {
+            subString = expr.substr(left, right);
+        }
+    }
 }
 
 std::string MainWindow::convertToString(long double x)
